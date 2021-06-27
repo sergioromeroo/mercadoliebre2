@@ -1,0 +1,138 @@
+*{
+    font-family: "Roboto";
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--color-amarillo);
+}
+.home header p{
+    text-align: center;
+}
+
+.encabezado .menus, .menus2, a{
+    color: black;
+    display: none;    
+}
+.encabezado .menus2{
+    padding-top: 20px;
+}
+.encabezado div{
+    margin: 0;
+    padding: 0;
+}
+.encabezado .burger{
+    text-align: center;
+}
+.encabezado .burger button{
+    display: inline-block;
+    margin: 20px auto;
+    background-color: var(--color-celeste);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+/* MENU */
+main{
+    background-color: var(--color-grisclaro);
+}
+.sin-borde {
+    margin: 0;
+    padding: 0;
+}
+.sin-borde img{
+    display: block;
+    width: 100%;
+}
+main section{
+    margin: 10px;
+    margin-top: 0;
+}
+main .titulares{
+    font-size: 24px;
+}
+main .precios{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.descuentos{/* descuento */
+    font-size: 16px;
+    color: var(--color-verde);
+    
+}
+.descripcion{/* descripcion */
+    display: none;
+}
+.caja{
+    border-top: 1px solid var(--color-grisclaro);
+    background-color: white;
+    padding: 10px;
+    
+
+}
+.caja .border{/* LA IMAGEN EL LOGO */
+    border-radius: 50%;/* darle el redondel a la foto */
+    border: 2px solid var(--color-verde);/* un borde para el redondel */
+    width: 180px;/* agranda la imagen el redondel*/
+    padding: 6px;
+    margin: 15px auto 30px;/* arriba 15 izq y dercecha "auto" lo centra y 30 es abajo */
+}
+    /* FOOTER */
+footer{
+    background-color: white;
+    padding-top: 30px;
+}
+.home footer{
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+.home footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.tituloss{
+    font-size: 20px;
+    margin-bottom: 0;
+    color: var(--color-grisoscuro);
+}
+footer p{
+    color: var(--color-grisoscuro);
+}
+.iconos{
+    color: var(--color-azul);
+}
+.paga{
+    margin: 20px;
+    padding: 20px;
+}
+/* modo tablets */
+
+@media (min-width: 361px){
+    .descripcion{
+        font-size: 16px;
+        display: inline;      
+    }
+    .box_shadow{
+
+        box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );    
+        
+    }
+    .encabezado .menus, .menus2, a{
+        display: inline;
+    }
+}
+
+
+/* modo desktop */
+
+@media (min-width: 769px){
+
+}
+
